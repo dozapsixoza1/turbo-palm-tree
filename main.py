@@ -16,7 +16,7 @@ import logging
 from datetime import datetime
 
 # ========== CONFIG ==========
-BOT_TOKEN = "8276253982:AAGSBdDaVBHCFOmi6-4PGZGvRGnrU8X4JmM"
+BOT_TOKEN = "8525188022:AAGmgw2Yqbn1UDt1Eqxgbw_q7nrewKuySrA"
 OWNER_ID = 7504103313
 MAIN_SCAM_CHAT_ID = -1002374406940
 STAFF_CHAT_ID = -1003235703843
@@ -296,6 +296,7 @@ if __name__ == "__main__":
         bot.polling(none_stop=True, interval=0)
     except Exception as e:
         logger.critical(f"Bot crashed: {e}", exc_info=True)
+
 
 
 
